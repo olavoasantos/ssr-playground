@@ -1,8 +1,8 @@
 import React from 'react';
+import config from './config';
+import Routes from './Routes';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import Routes from './Routes';
-import config from './config';
 
 ReactDOM.hydrate(
   <BrowserRouter>
